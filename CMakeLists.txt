@@ -4,7 +4,7 @@
 cmake_minimum_required(VERSION 3.20)
 
 #project name/version/description/language
-project(NewProject VERSION 1.0 DESCRIPTION "Description of your project..." LANGUAGES CXX)
+project(sqliteT1 VERSION 1.0 DESCRIPTION "A test of SQLite (Number One)" LANGUAGES CXX)
 
 # DPP Dependency Requirements:
 set(CMAKE_THREAD_PREFER_PTHREAD TRUE)
@@ -18,6 +18,7 @@ add_executable(${PROJECT_NAME}
 
 #linking libraries
 target_link_libraries(${PROJECT_NAME}
+	sqlite3
 	dpp
 	pthread
 	)
