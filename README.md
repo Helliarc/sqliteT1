@@ -1,2 +1,2 @@
-# NewProject
-Custom default directory structure of a new C++ Project.  Clone when starting new project.
+# SQLite Project
+Default directory and CMAKE structure of a new C++ Project that includes SQLite.  Clone when starting new project.
